@@ -12,7 +12,7 @@ def get_user_input():
 
 def calc_average(numbers):
     avg = sum(numbers) / len(numbers)
-    print("Average: " + str(avg))
+    print("Average: " + str(round(avg, 2)))
     return float(avg)
 
 def find_min_max(numbers):
